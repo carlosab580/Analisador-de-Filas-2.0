@@ -1,0 +1,100 @@
+/* 
+    Document   : estilo
+    Created on : 16/06/2013, 10:50:42
+    Author     : Carlos-Notebook
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body 
+{
+     text-align: center;
+}
+
+#all
+{
+    width: 900px;
+    text-align: left;
+    margin: auto;
+}
+
+#header 
+{
+    border: 1px solid black;
+    border-width: 1px 1px 1px 1px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    background-color:#EDEDED;
+    font:80% Tahoma;
+}
+           
+#content
+{
+    min-height: 400px;
+    font: Comic Sans;  
+    padding: 0px 15px 0px 15px;
+    background-color:#EDEDED;
+    border: 1px solid black;    
+}
+
+#menu
+{
+    border: 1px solid black;
+    border-width: 0px 1px 0px 1px;
+}
+
+#menu ul 
+{
+    border: 1px solid black;
+    border-width: 0px 0px 1px 0px;
+    padding:0px;
+    margin:0px;
+    float: left;
+    width: 100%;
+    background-color:#EDEDED;
+    list-style:none;
+    font:80% Tahoma;
+}
+
+#menu ul li
+{ 
+    display: inline;
+}
+
+#menu ul li a 
+{
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+    padding: 2px 10px;
+    float:left;
+}
+
+#menu ul li a:hover 
+{
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+#rodape
+{
+    border: 1px solid black;
+    border-width: 0px 1px 1px 1px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    background-color:#EDEDED;
+    font:80% Tahoma;
+}
+
+#td1
+{
+    padding: 2px 2px 2px 2px;
+    width: 200px;
+}
+
+th
+{
+    padding: 10px 10px 10px 10px;
+}

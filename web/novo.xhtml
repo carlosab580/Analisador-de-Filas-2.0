@@ -1,0 +1,69 @@
+<ui:composition template="/template.xhtml"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:ui="http://java.sun.com/jsf/facelets">
+<link rel="stylesheet" type="text/css" href="estilo.css"></link>
+    <ui:define name="conteudo">
+        <table align="center">
+               <tr>
+                   <th colspan="2" align="center">Configuração</th>
+               </tr>
+               <tr>
+                   <td id="td1">Taxa de Chegada:</td>
+                   <td id="td1"><input type = "text"></input></td>
+               </tr>
+               <tr>
+                   <td id="td1">Taxa de Saída:</td>
+                   <td id="td1"><input type = "text"></input></td>
+                </tr>
+                <tr>
+                    <td id="td1">Nº Servidores:</td>
+                    <td id="td1"><input type = "text"></input></td>
+                </tr>
+                <tr>
+                    <td id="td1">Nº Clientes:</td>
+                    <td id="td1"><input type = "text"></input></td>
+                </tr>
+           </table>
+        <br />
+        <table align="center">
+              <tr>
+                   <th colspan="4" align="center">Medidas de Desempenho</th>
+              </tr>
+              <tr>
+                  <td><input type = "checkbox" value="op1"></input></td>
+                  <td>Taxa de Ocupação</td>
+                   <td><input type = "checkbox" value="op2"></input></td>
+                   <td>Prob. de mais de n clientes sistema</td>
+               </tr>
+               <tr>
+                  <td><input type = "checkbox" value="op3"></input></td>
+                  <td>Taxa de Ociosidade</td>
+                   <td><input type = "checkbox" value="op4"></input></td>
+                   <td>Prob. de n clientes sistema</td>
+                </tr>
+                <tr>
+                    <td><input type = "checkbox" value="op5"></input></td>
+                  <td>Número médio de clientes sistema</td>
+                   <td><input type = "checkbox" value="op6"></input></td>
+                   <td>Tempo médio de permanência no sistema</td>
+                </tr>
+                <tr>
+                    <td><input type = "checkbox" value="op7"></input></td>
+                  <td>Número médio de clientes na fila</td>
+                   <td><input type = "checkbox" value="op8"></input></td>
+                   <td>Tempo médio de permanência na fila</td>
+                </tr>
+        </table>
+        <br />
+        <br />
+        <table align="center">
+           <tr>
+                <td colspan="2" align="center" id="td1"><input type="button" value="Salvar Configuração"></input></td>
+                <td colspan="2" align="center" id="td1"><input type="submit" value="Calcular"></input></td>
+           </tr>
+        </table>
+        
+        
+    </ui:define>
+</ui:composition>
